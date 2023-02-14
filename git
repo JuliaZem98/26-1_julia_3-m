@@ -1,0 +1,18 @@
+git init
+git remote add origin link
+
+create .gitignore
+        .gitignore
+        .idea
+        venv
+        __pycache__/
+        *.py[cod]
+        *.so
+        git add .
+
+git status -s
+
+
+
+git remote remove origin
+git clone link
